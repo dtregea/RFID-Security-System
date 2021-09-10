@@ -7,7 +7,11 @@ The use of Arduino Uno to simulate a RFID tag based security system.
 - RFID tag
 - External breadboard
 - 2 External LED's
-- 2 resistors
+- 3 Resistors
+- Button
+- Breadboard Power Supply Module
+- 5V Power source for breadboard power supply module
+- Servo Motor
 
 ## Pin Layout
 1. RC522
@@ -20,6 +24,17 @@ The use of Arduino Uno to simulate a RFID tag based security system.
 - RST | Digital pin 9
 - 3.3V | 3.3V (Not 5v)
 
-2. LED on Breadboard
+2. LED's on Breadboard
 - Access Denied LED | Digital pin 8
 - Access Authorized LED | Digital pin 7
+- 2 Transistors
+
+3. Servo Motor on Breadboard
+- PWM | Digital pin 5
+- 5V |  Breadboard Power
+- GND | GND
+
+4. Button on Breadboard
+- 5V | Breadboard Power
+- GND | GND
+- 1 Transistor
