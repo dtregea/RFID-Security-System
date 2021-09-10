@@ -1,5 +1,12 @@
 # RFID-Security-System
 The use of Arduino Uno to simulate a RFID tag based security system.
+Upon the correct RFID tag being authorized, the lock will open and will wait until the user closes the door to continue reading cards.
+
+# Component Functions
+- RC522 RFID Chip | Tag reader
+- LED's | Tag acceptance indicator
+- Servo Motor | Locks door
+- Button | Closes door
 
 ## Components
 - Arduino Uno rev3
